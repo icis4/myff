@@ -1,23 +1,23 @@
-# Contributing (Принос)
+# Contributing
 
-Благодаря, че искаш да допринесеш за **myff**.
+Thanks for your interest in contributing to **myff**.
 
-Преди да започнеш, моля спазвай [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+Before you get started, please follow [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
-## Как да допринесеш
-Има няколко лесни начина:
-- Докладвай бъг или предложи подобрение чрез Issue.
-- Подай Pull Request (PR) с поправка/функционалност.
-- Подобри документацията (README примери, пояснения, edge cases).
+## Ways to Contribute
+There are a few easy ways to help:
+- Report a bug or suggest an improvement via an Issue.
+- Open a Pull Request (PR) with a fix or a new feature.
+- Improve documentation (README examples, clarifications, edge cases).
 
-## Изисквания
+## Requirements
 - Python 3.9+.
-- Няма допълнителни зависимости (само стандартна библиотека).
+- No additional dependencies (standard library only).
 
-## Локално стартиране
-Скриптът е самостоятелен файл.
+## Running Locally
+The script is a single standalone file.
 
-Пример (CLI аргументи):
+Example (CLI arguments):
 
 ```bash
 python3 find_files_by_regex.py --root . --pattern '.*\\.py$'
@@ -29,48 +29,48 @@ Case-insensitive:
 python3 find_files_by_regex.py --root . --pattern 'readme\\.md$' -i
 ```
 
-Без рекурсия:
+Non-recursive:
 
 ```bash
 python3 find_files_by_regex.py --root . --pattern '.*' --no-recursive
 ```
 
-## Докладване на проблем (Issue)
-Когато пускаш Issue, добави:
-- Какво очакваш да се случи.
-- Какво реално се случва (включително изход/грешка от терминала).
-- Команда/аргументи, които си използвал.
-- Версия на Python (`python3 --version`) и ОС.
+## Reporting a Problem (Issue)
+When opening an issue, please include:
+- What you expected to happen.
+- What actually happened (including terminal output/errors).
+- The exact command/arguments you used.
+- Your Python version (`python3 --version`) and OS.
 
 ## Pull Requests
 
-### Процес
-1. Fork-не на проекта.
-2. Създай нов branch (напр. `fix/…` или `feature/…`).
-3. Направи промяната.
-4. Увери се, че скриптът работи и README е актуален (ако променяш поведение/интерфейс).
-5. Подай PR с ясно описание.
+### Process
+1. Fork the project.
+2. Create a new branch (e.g. `fix/…` or `feature/…`).
+3. Make your change.
+4. Make sure the script works and the README is up to date (if you change behavior/interface).
+5. Open a PR with a clear description.
 
-### Какво да включва PR описанието
-- Кратък контекст: защо е нужна промяната.
-- Какво точно се променя.
-- Как да се тества ръчно (примерни команди).
+### What to Include in the PR Description
+- Brief context: why the change is needed.
+- What exactly is changing.
+- How to test it manually (example commands).
 
-### Обхват и фокус
-- Малки, фокусирани PR-и са предпочитани.
-- Ако добавяш нов флаг/опция, добави и пример в README.
-- Опитай се да не добавяш зависимости, освен ако има силна причина.
+### Scope and Focus
+- Small, focused PRs are preferred.
+- If you add a new flag/option, add a corresponding example in the README.
+- Try not to add dependencies unless there is a strong reason.
 
-## Код стил
-- Следвай PEP 8 и съществуващия стил в кода.
-- Поддържай четимост (ясни имена, кратки функции, ясни error messages).
-- Запази поведение назад-съвместимо, освен ако промяната е изрично описана.
+## Code Style
+- Follow PEP 8 and the existing style in the codebase.
+- Keep things readable (clear names, small functions, clear error messages).
+- Preserve backwards compatibility unless the change is explicitly documented.
 
-## Съвместимост и поведение
-- Regex-ът се прилага върху **името на файла**, не върху целия път.
+## Compatibility and Behavior
+- The regex is applied to the **filename**, not the full path.
 - Exit codes:
-  - `0` – успешно изпълнение
-  - `2` – невалиден regex или невалиден root path
+  - `0` – successful execution
+  - `2` – invalid regex or invalid root path
 
-## Сигурност
-Ако откриеш проблем със сигурността, избягвай публично Issue с чувствителни детайли. Предпочитай отговорно разкриване към поддържащите (контактът е в Code of Conduct).
+## Security
+If you discover a security issue, avoid filing a public issue with sensitive details. Prefer responsible disclosure to the maintainers (contact info is in the Code of Conduct).

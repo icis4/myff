@@ -1,52 +1,52 @@
-# Code of Conduct (Кодекс на поведение)
+# Code of Conduct
 
-Този проект цели да поддържа безопасна, уважителна и продуктивна среда за всички участници — потребители, контрибутори и поддържащи.
+This project aims to maintain a safe, respectful, and productive environment for everyone involved — users, contributors, and maintainers.
 
-## Нашият ангажимент
-Ние се ангажираме да създадем общност, в която:
-- Общуваме с уважение и професионален тон.
-- Приемаме различията и насърчаваме конструктивния диалог.
-- Фокусираме се върху това да подобрим проекта и преживяването на всички.
+## Our Pledge
+We are committed to fostering a community where we:
+- Communicate with respect and a professional tone.
+- Embrace differences and encourage constructive dialogue.
+- Focus on improving the project and everyone’s experience.
 
-## Очаквано поведение
-Примери за поведение, което насърчаваме:
-- Използване на приветлив и приобщаващ език.
-- Даване и получаване на обратна връзка по конструктивен начин.
-- Уважение към време, усилия и гледни точки на другите.
-- Признаване на грешки и готовност за корекция.
-- Спазване на правилата на хранилището (issues/PR шаблони, стил, тестове), когато са налични.
+## Expected Behavior
+Examples of behavior we encourage:
+- Using welcoming and inclusive language.
+- Giving and receiving feedback constructively.
+- Respecting other people’s time, effort, and viewpoints.
+- Acknowledging mistakes and being willing to correct them.
+- Following repository rules (issue/PR templates, style, tests) when available.
 
-## Неприемливо поведение
-Примери за поведение, което не е допустимо:
-- Обиди, унижения, тормоз, заплахи или агресивен тон.
-- Дискриминация или подигравки на база лични характеристики.
-- Сексуализирани коментари или нежелано внимание.
-- Публикуване на лични данни (doxxing) или подтикване към това.
-- Умишлено саботиране на дискусии (спам, тролене, повтарящи се провокации).
+## Unacceptable Behavior
+Examples of behavior that is not acceptable:
+- Insults, humiliation, harassment, threats, or aggressive tone.
+- Discrimination or mockery based on personal characteristics.
+- Sexualized comments or unwanted attention.
+- Posting personal data (doxxing) or encouraging others to do so.
+- Deliberately derailing discussions (spam, trolling, repeated provocations).
 
-## Обхват
-Този кодекс важи за всички пространства на проекта, включително (но не само):
-- GitHub issues, pull requests, дискусии и коментари
-- commit съобщения и код ревюта
-- комуникация, свързана с проекта (чат/имейл), ако е официално използвана
+## Scope
+This Code of Conduct applies to all project spaces, including (but not limited to):
+- GitHub issues, pull requests, discussions, and comments
+- commit messages and code reviews
+- project-related communication (chat/email) when officially used
 
-## Докладване на проблем
-Ако станете свидетел или обект на неприемливо поведение:
-- Изпратете кратко описание на случилото се, линк/скрийншот (ако е възможно) и контекст.
-- Докладвайте на поддържащите на проекта на: **[ПОПЪЛНЕТЕ КОНТАКТ: имейл или GitHub handle]**
+## Reporting an Issue
+If you witness or are subject to unacceptable behavior:
+- Send a short description of what happened, a link/screenshot (if possible), and relevant context.
+- Report it to the project maintainers at: **[FILL IN CONTACT: email or GitHub handle]**
 
-Моля, не публикувайте чувствителни детайли публично, когато това може да навреди на засегнати лица.
+Please avoid posting sensitive details publicly when doing so could harm affected people.
 
-## Прилагане и последствия
-Поддържащите на проекта могат да предприемат действия според ситуацията, например:
-- Пояснение/предупреждение и насочване към коректно поведение.
-- Заключване на дискусия, изтриване/редакция на съдържание.
-- Временно или постоянно ограничаване на участие (ban).
+## Enforcement and Consequences
+Project maintainers may take action depending on the situation, for example:
+- Clarification/warning and guidance toward appropriate behavior.
+- Locking a thread, deleting/editing content.
+- Temporary or permanent restriction from participation (ban).
 
-Решенията се взимат добросъвестно с цел да защитят общността и проекта.
+Decisions are made in good faith to protect the community and the project.
 
-## Обжалване
-Ако смятате, че действие по прилагане е било несправедливо, свържете се с поддържащите чрез същия канал и предоставете контекст. Ще бъде направен повторен преглед.
+## Appeals
+If you believe an enforcement action was unfair, contact the maintainers through the same channel and provide context. A re-review will be performed.
 
-## Атрибуция
-Този документ е създаден специално за този проект и е вдъхновен от широко използвани практики за общности с отворен код.
+## Attribution
+This document was created specifically for this project and is inspired by widely used practices in open-source communities.

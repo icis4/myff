@@ -5,9 +5,9 @@
 - By default, searches recursively.
 
 Examples:
-  python3 find_files_by_regex.py
-  python3 find_files_by_regex.py --root /var/log --pattern '.*\\.log$'
-  python3 find_files_by_regex.py --pattern '^report_\\d{4}-\\d{2}-\\d{2}\\.csv$'
+    python3 src/find_files_by_regex.py
+    python3 src/find_files_by_regex.py --root /var/log --pattern '.*\\.log$'
+    python3 src/find_files_by_regex.py --pattern '^report_\\d{4}-\\d{2}-\\d{2}\\.csv$'
 """
 
 from __future__ import annotations
@@ -20,8 +20,10 @@ from dataclasses import dataclass
 
 # ---- CONFIG CONSTANTS ----
 
-ROOT_PATH = "/home/ivaylo/projects"  # <-- промени това
-FILENAME_REGEX = r".*"  # <-- промени това (regex за ИМЕТО на файла, не за съдържанието)
+ROOT_PATH = "/home/ivaylo/projects"  # <-- change this
+FILENAME_REGEX = r".*"  # <-- change this (regex for the FILENAME, not file contents)
+
+# Note: The regex is applied to the filename (basename), not the full path.
 
 # --------------------------
 

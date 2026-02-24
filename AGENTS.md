@@ -8,20 +8,20 @@ Use English for comments and documentation
 ## Project overview
 - **Goal:** Find files whose **names** match a regex under a given root directory.
 - **Language:** Python (standard library only).
-- **Entry point:** `find_files_by_regex.py`.
+- **Entry point:** `src/find_files_by_regex.py`.
 
 ## How to run
 Use CLI flags (preferred):
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern '.*\\.py$'
+python3 src/find_files_by_regex.py --root . --pattern '.*\\.py$'
 ```
 
 Helpful variants:
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern 'readme\\.md$' -i
-python3 find_files_by_regex.py --root . --pattern '.*' --no-recursive
+python3 src/find_files_by_regex.py --root . --pattern 'readme\\.md$' -i
+python3 src/find_files_by_regex.py --root . --pattern '.*' --no-recursive
 ```
 
 Expected exit codes:

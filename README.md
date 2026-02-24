@@ -22,24 +22,24 @@ Small Python script for finding files whose **names** match a regex under a give
 ### 1) Via CLI arguments (recommended)
 
 ```bash
-python3 find_files_by_regex.py --root /home/ivaylo --pattern 'index\.html$'
+python3 src/find_files_by_regex.py --root /home/ivaylo --pattern 'index\.html$'
 ```
 
 Case-insensitive:
 
 ```bash
-python3 find_files_by_regex.py --root /home/ivaylo --pattern 'readme\.md$' -i
+python3 src/find_files_by_regex.py --root /home/ivaylo --pattern 'readme\.md$' -i
 ```
 
 Current directory only (no subfolders):
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern '.*\.py$' --no-recursive
+python3 src/find_files_by_regex.py --root . --pattern '.*\.py$' --no-recursive
 ```
 
 ### 2) Via constants in the script
 
-Open `find_files_by_regex.py` and change:
+Open `src/find_files_by_regex.py` and change:
 
 - `ROOT_PATH` – the root directory
 - `FILENAME_REGEX` – regex for the filename
@@ -47,7 +47,7 @@ Open `find_files_by_regex.py` and change:
 Then run:
 
 ```bash
-python3 find_files_by_regex.py
+python3 src/find_files_by_regex.py
 ```
 
 ## Notes

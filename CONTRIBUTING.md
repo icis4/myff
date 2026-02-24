@@ -20,19 +20,19 @@ The script is a single standalone file.
 Example (CLI arguments):
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern '.*\\.py$'
+python3 src/find_files_by_regex.py --root . --pattern '.*\\.py$'
 ```
 
 Case-insensitive:
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern 'readme\\.md$' -i
+python3 src/find_files_by_regex.py --root . --pattern 'readme\\.md$' -i
 ```
 
 Non-recursive:
 
 ```bash
-python3 find_files_by_regex.py --root . --pattern '.*' --no-recursive
+python3 src/find_files_by_regex.py --root . --pattern '.*' --no-recursive
 ```
 
 ## Reporting a Problem (Issue)
